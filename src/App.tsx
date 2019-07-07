@@ -1,7 +1,9 @@
 import * as React from 'react';
 import DropArea from './components/DropArea/DropArea'
+import Footer from './components/Footer/Footer'
 import Header from './components/Header/Header'
 import Result from './components/Result/Result'
+
 
 interface IState {
   result:string
@@ -27,6 +29,7 @@ class App extends React.Component<{},IState>{
           <Header />
           <DropArea setResults={this.resultstate} />
           <Result result={this.state.result} filelength={this.state.filelength} />
+          <Footer />
         </div>
       );
     }

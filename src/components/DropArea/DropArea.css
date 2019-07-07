@@ -13,9 +13,9 @@
     padding-top: 5px;
     padding-bottom: 0px;
     height: 51vh;
-    background-color: #202125;
+    background-color: #081B33;
     border-radius: 20px;
-    color: white;
+    color: #081B33;
   }
   
   .image1 {
@@ -26,7 +26,7 @@
   .dank {
     display:flex;
     justify-content:center;
-    color: white;
+    color: gray;
     font-size: 20px;
   }
   
